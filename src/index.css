@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0
+}
+
+/* CSS */
+.button {
+  outline: 2px solid #0b5cff;
+  background-color: #FFFFFF;
+  border-radius: 999px;
+  box-sizing: border-box;
+  color: #0b5cff;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.button2 {
+  background-color: #0b5cff;
+  border-radius: 999px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  padding: 12px 24px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  border: 0;
+  transition-timing-function: ease-in-out
+}
+
+.button:hover {
+  outline: 0;
+}
+
+.button2:hover {
+  transition: 0.5s;
+  transition-timing-function: ease;
+  box-shadow: 1px 1px 12px 12px rgba(0, 0, 255, .2);
+  size: 1.1;
+}
+
+.wheel {
+  max-width: 300px;
+}
+
+@media (min-width: 768px) {
+  .wheel {
+    max-width: 400px;
+  }
+}
